@@ -6,11 +6,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~lndlBahL#0nH2atgdoZJlZ-52TWg-D5ODHUY_4KHn1V1sdBMPE64",
+SESSION_ID: process.env.SESSION_ID || "malvin~srkzXKCI#DEuBH2iOZckJX6wmgq45GrSjL7MMdVLpfnpbrbAhCbQ",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
+BOT_NAME: process.env.BOT_NAME || "Taki Taki",
 // add bot name here for menu
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -46,7 +46,7 @@ LINK_WHITELIST: "youtube.com,github.com",
       MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 
-     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/qumhu4.jpg",
+     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/73dm7v.jpeg",
 // add custom menu and mention reply image url
 
        ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/xshsmk",
